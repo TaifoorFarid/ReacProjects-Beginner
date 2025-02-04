@@ -1,0 +1,139 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Poppins", serif;
+}
+
+.nav-pages {
+  font-size: 18px;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 24px;
+  font-weight: 600;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1280px;
+  height: 72px;
+  margin: 0 auto;
+}
+
+.btn {
+  height: auto;
+  background-color: #d01c28; /* Red background */
+  color: #ffffff; /* White text */
+  border: none; /* Remove default border */
+  padding: 10px 16px; /* Adjust padding as needed */
+  text-align: center;
+  text-decoration: none;
+  /* display: inline-block; */
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px; /*Rounded edges */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Subtle box shadow */
+}
+
+.btn:hover {
+  background-color: #cc0000; /* Darker red on hover */
+  box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3); /* Adjusted box shadow on hover */
+}
+
+.btn:active {
+  background-color: #990000; /* Even darker red on click */
+}
+
+/*==========================================================*/
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center; /* Center the list items */
+}
+
+nav li {
+  display: inline-block; /* Make list items horizontal */
+  margin: 0 10px; /* Add some space between items */
+  position: relative; /* Needed for positioning the pseudo-element */
+}
+
+nav a {
+  text-decoration: none;
+  color: #333; /* Or your preferred color */
+  padding: 10px; /* Add some padding around the text */
+  display: block; /* Make the entire list item clickable */
+}
+
+nav li::after {
+  /* Create the underline effect */
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%); /* Center the line */
+  width: 0;
+  height: 2px; /* Adjust thickness as needed */
+  background-color: black; /* Or your preferred color */
+  transition: width 0.3s ease; /* Adjust duration and easing */
+}
+
+nav li:hover::after {
+  width: 100%; /* Expand line to full width on hover */
+}
+
+.hero-sec {
+  max-width: 1000px;
+  margin: 70px auto;
+  display: flex;
+}
+
+h1 {
+  font-size: 95px;
+  line-height: 0.9;
+  width: 600px;
+  font-weight: 750;
+}
+
+.des {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  color: #333333af;
+  font-weight: bold;
+  width: 400px;
+}
+
+.buttons {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.catagory-btn {
+  background-color: transparent;
+  color: black;
+  margin-left: 20px;
+}
+
+.catagory-btn:hover {
+  color: white;
+  background-color: black;
+}
+
+.logo {
+  margin-top: 10px;
+  display: flex;
+  gap: 16px;
+}
+
+.also-avaliable {
+  color: #333333af;
+  font-size: 14px;
+}

@@ -1,0 +1,58 @@
+.body {
+  width: 1000px;
+  margin: 50px auto;
+}
+
+.des-para {
+  width: 950px;
+  color: rgb(91, 91, 91);
+  margin-top: 20px;
+}
+
+.lower-body {
+  display: flex;
+  margin-top: 20px;
+}
+
+.upper-buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.contact-picture {
+  width: 550px;
+  height: 550px;
+  margin-left: 50px;
+}
+
+.form-btn {
+  padding: 8px 20px;
+}
+
+form {
+  margin-top: 70px;
+}
+
+.textArea {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-top: 20px;
+}
+
+.textArea-lable {
+  position: absolute;
+  top: -11px;
+  left: 13px;
+  background-color: white;
+  padding: 0 5px;
+}
+
+textarea {
+  padding: 10px 10px;
+}
+
+button:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,11 @@
+.formInput {
+  position: relative;
+}
+
+.formInput label {
+  position: absolute;
+  top: -11px;
+  left: 11px;
+  background-color: white;
+  padding: 0 5px;
+}
